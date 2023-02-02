@@ -1,0 +1,2541 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xa4284C1C5fe0B5bc4bB635A21f658FD7b04a317A",
+    "txHash": "0x8e18e69af204f51320d00a62a586f78d47c17fa9633cfb255243a486721ecb8b"
+  },
+  "proxies": [
+    {
+      "address": "0x4E9add5464c5FA00a6A858d7A4047e06886662Df",
+      "txHash": "0x9958a35de9642a06d5587ead985fbaf1aa0fed0d4a7df1afb17c462c72211584",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc1A57Bee847451E0A10c509f3cbF23feA37Bb8B3",
+      "txHash": "0x1703cb9617c453f42c9cd90f88cdf62a6f651afc4a6ec15b1ca071b45e472e0d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1644C7A87b823496dfEC30E33b0dE42acF8CF6c0",
+      "txHash": "0x55c5316e418b5901a47ef597878bb30322ffef012ab4a269b7c78ce7f6a71df6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf10C47D919A505dd8ee35d991219101a2cbe135B",
+      "txHash": "0xb55386e9f28d580d14376d2926b804cb32cf05971e0bc1fb01c7de4592916739",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE4661C83835180f893e3B2b9cc6A086491Bf1334",
+      "txHash": "0xe94ed4cc6aa2985c96c23f485e5bea9b931508e79578b71e608e5968b966dc7a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7B0EBc72c3e49800b6483c9C98eA8bc46dD6F3de",
+      "txHash": "0xc4f781f57b19da77e06d2f21361d73cbfb2faf6e82f4b20d5d5c239087482b08",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xDf8c129Ec77e05735217bca0E71eE7cf2D289259",
+      "txHash": "0xd3199fbe88a168c986a8b5fb919c83fffe1efc14ed23d242c2ed556585bc6d7c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf910A76122dFFFA00f9650d57569D71378a27627",
+      "txHash": "0x8928d01a78826aeb9530fe93eee9ce18ede41ab48c6106ab8dac557c2f25b12c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x449EF7aDD3A945DC37F566b2C5F81C463510edbF",
+      "txHash": "0x6de0b8f1e5ff4e0d62ac9a958cf44c2892eb2595e3733a2b74996012ca3b8d63",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x01e937f2013746d330cc4dFEEE5C1D115Ee45d9b",
+      "txHash": "0x2f4dfdb7cc00c26b5c7ba58cacded172df67587ad9bccf740f9b7c6b0fa309f6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x38471a775f0d787e69843Db743c1A524346114cE",
+      "txHash": "0xb31214d32ea5f69004166df4e407158d0c168f3b8aecb4b22169ca8d7c664388",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x284B9754ea998CdF397bAe8610b3040Cd2E97Faf",
+      "txHash": "0xdb2d5b1bc5a6baa429287b58668beecd6c6972d589446d6422bcaaf6c9758b02",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xbE687AcFa322D6d9132A9735138b913132fD774B",
+      "txHash": "0xdd21e8b9ccdbb80a0f17c9d71780df5099fc7097bf6f9d872e55e39b32d61b94",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "b9dd3fb3169fb5e04855e9bf39a4eaf5e9e8bd36bb8540d67e34f3a565c23260": {
+      "address": "0x17024902257898968Fd1F9871c15cB83897AAc79",
+      "txHash": "0x4a980b00d4e514b8c0a39c573bf0c65c81bc7914141865e66f1fba813863e8ae",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "priceAggregator",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(AggregatorV3Interface)7041",
+            "contract": "PriceFeed",
+            "src": "src\\main\\PriceFeed.sol:29"
+          },
+          {
+            "label": "lastGoodPrice",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_uint256",
+            "contract": "PriceFeed",
+            "src": "src\\main\\PriceFeed.sol:43"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)7041": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "37073122633b4d74356ddba906503ee4cda3b42892bd300436f6ebd546e5dcda": {
+      "address": "0x87a64B1965172065EECc962106F35497e96b81B9",
+      "txHash": "0x1ebbbbef935e0c929fe0133194b920976af9044a5154d8772cb49ac0e5309730",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "borrowerOperationsAddress",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "SortedTroves",
+            "src": "src\\main\\SortedTroves.sol:61"
+          },
+          {
+            "label": "troveManagerRedemptionsAddress",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_address",
+            "contract": "SortedTroves",
+            "src": "src\\main\\SortedTroves.sol:62"
+          },
+          {
+            "label": "troveManagerAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "SortedTroves",
+            "src": "src\\main\\SortedTroves.sol:63"
+          },
+          {
+            "label": "data",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_struct(Data)15631_storage",
+            "contract": "SortedTroves",
+            "src": "src\\main\\SortedTroves.sol:83"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_struct(Node)15618_storage)": {
+            "label": "mapping(address => struct SortedTroves.Node)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Data)15631_storage": {
+            "label": "struct SortedTroves.Data",
+            "members": [
+              {
+                "label": "head",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "tail",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "maxSize",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "size",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "nodes",
+                "type": "t_mapping(t_address,t_struct(Node)15618_storage)",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(Node)15618_storage": {
+            "label": "struct SortedTroves.Node",
+            "members": [
+              {
+                "label": "exists",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "nextId",
+                "type": "t_address",
+                "offset": 1,
+                "slot": "0"
+              },
+              {
+                "label": "prevId",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "oldICR",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "1a25efc0b6cf559dbe69c1e3bd05c5daaf9a23c59b156926d9d89a331b97bc15": {
+      "address": "0x7a9733554d61B58e8DC44358bAB639A5BeD93ddA",
+      "txHash": "0x11b15e98d09cb8b22323e9d5461aabbf94c9b0526deca54bd0da08b39f910bea",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "whitelist",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IWhitelist)13925",
+            "contract": "BOCLCustomBase",
+            "src": "src\\main\\Dependencies\\BOCLCustomBase.sol:14"
+          },
+          {
+            "label": "activePool",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IActivePool)11295",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:34"
+          },
+          {
+            "label": "defaultPool",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IDefaultPool)11737",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:36"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ReentrancyGuardUpgradeable.sol:37"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ReentrancyGuardUpgradeable.sol:67"
+          },
+          {
+            "label": "borrowerOperationsAddress",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_address",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:27"
+          },
+          {
+            "label": "stabilityPoolContract",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_contract(IStabilityPool)12403",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:29"
+          },
+          {
+            "label": "troveManager",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_contract(ITroveManager)13532",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:31"
+          },
+          {
+            "label": "CUSDTokenContract",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_contract(ICUSDToken)11553",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:33"
+          },
+          {
+            "label": "BOCTreasuryContract",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_contract(ITreasury)12933",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:35"
+          },
+          {
+            "label": "troveManagerRedemptions",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_contract(ITroveManagerRedemptions)13565",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:37"
+          },
+          {
+            "label": "troveManagerLiquidations",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_contract(ITroveManagerLiquidations)13543",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:39"
+          },
+          {
+            "label": "gasPoolAddress",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_address",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:41"
+          },
+          {
+            "label": "troveManagerRedemptionsAddress",
+            "offset": 0,
+            "slot": "161",
+            "type": "t_address",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:42"
+          },
+          {
+            "label": "troveManagerLiquidationsAddress",
+            "offset": 0,
+            "slot": "162",
+            "type": "t_address",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:43"
+          },
+          {
+            "label": "sortedTroves",
+            "offset": 0,
+            "slot": "163",
+            "type": "t_contract(ISortedTroves)12207",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:45"
+          },
+          {
+            "label": "collSurplusPool",
+            "offset": 0,
+            "slot": "164",
+            "type": "t_contract(ICollSurplusPool)11644",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:47"
+          },
+          {
+            "label": "baseRate",
+            "offset": 0,
+            "slot": "165",
+            "type": "t_uint256",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:65"
+          },
+          {
+            "label": "lastFeeOperationTime",
+            "offset": 0,
+            "slot": "166",
+            "type": "t_uint256",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:68"
+          },
+          {
+            "label": "Troves",
+            "offset": 0,
+            "slot": "167",
+            "type": "t_mapping(t_address,t_struct(Trove)9274_storage)",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:70"
+          },
+          {
+            "label": "totalStakes",
+            "offset": 0,
+            "slot": "168",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:73"
+          },
+          {
+            "label": "totalStakesSnapshot",
+            "offset": 0,
+            "slot": "169",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:76"
+          },
+          {
+            "label": "totalCollateralSnapshot",
+            "offset": 0,
+            "slot": "170",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:79"
+          },
+          {
+            "label": "L_Coll",
+            "offset": 0,
+            "slot": "171",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:91"
+          },
+          {
+            "label": "L_CUSDDebt",
+            "offset": 0,
+            "slot": "172",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:92"
+          },
+          {
+            "label": "rewardSnapshots",
+            "offset": 0,
+            "slot": "173",
+            "type": "t_mapping(t_address,t_struct(RewardSnapshot)19279_storage)",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:95"
+          },
+          {
+            "label": "TroveOwners",
+            "offset": 0,
+            "slot": "174",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:104"
+          },
+          {
+            "label": "lastCollError_Redistribution",
+            "offset": 0,
+            "slot": "175",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:107"
+          },
+          {
+            "label": "lastCUSDDebtError_Redistribution",
+            "offset": 0,
+            "slot": "176",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "TroveManager",
+            "src": "src\\main\\TroveManager.sol:108"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IActivePool)11295": {
+            "label": "contract IActivePool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICUSDToken)11553": {
+            "label": "contract ICUSDToken",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICollSurplusPool)11644": {
+            "label": "contract ICollSurplusPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IDefaultPool)11737": {
+            "label": "contract IDefaultPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ISortedTroves)12207": {
+            "label": "contract ISortedTroves",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IStabilityPool)12403": {
+            "label": "contract IStabilityPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITreasury)12933": {
+            "label": "contract ITreasury",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITroveManager)13532": {
+            "label": "contract ITroveManager",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITroveManagerLiquidations)13543": {
+            "label": "contract ITroveManagerLiquidations",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITroveManagerRedemptions)13565": {
+            "label": "contract ITroveManagerRedemptions",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IWhitelist)13925": {
+            "label": "contract IWhitelist",
+            "numberOfBytes": "20"
+          },
+          "t_enum(Status)9256": {
+            "label": "enum TroveManagerBase.Status",
+            "members": [
+              "nonExistent",
+              "active",
+              "closedByOwner",
+              "closedByLiquidation",
+              "closedByRedemption"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_struct(RewardSnapshot)19279_storage)": {
+            "label": "mapping(address => struct TroveManager.RewardSnapshot)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(Trove)9274_storage)": {
+            "label": "mapping(address => struct TroveManagerBase.Trove)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(RewardSnapshot)19279_storage": {
+            "label": "struct TroveManager.RewardSnapshot",
+            "members": [
+              {
+                "label": "CollRewards",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "CUSDDebts",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(Trove)9274_storage": {
+            "label": "struct TroveManagerBase.Trove",
+            "members": [
+              {
+                "label": "colls",
+                "type": "t_struct(newColls)7061_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "debt",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "stakes",
+                "type": "t_mapping(t_address,t_uint256)",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(Status)9256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "arrayIndex",
+                "type": "t_uint128",
+                "offset": 1,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(newColls)7061_storage": {
+            "label": "struct BOCLCustomBase.newColls",
+            "members": [
+              {
+                "label": "tokens",
+                "type": "t_array(t_address)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "amounts",
+                "type": "t_array(t_uint256)dyn_storage",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint128": {
+            "label": "uint128",
+            "numberOfBytes": "16"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "cb320d6337ebd2e05a76d29d312bb534ab960b9e724ba9991e81e18a7305a2bc": {
+      "address": "0x8A633849aD07f7f1a4FEd1A6De3915481517024B",
+      "txHash": "0x81620a0fff7dd9c135b5bd36c207a3c1a8eecd19aae130651b484b214cdabbcd",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "whitelist",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IWhitelist)7248",
+            "contract": "BOCLCustomBase",
+            "src": "src\\main\\Dependencies\\BOCLCustomBase.sol:14"
+          },
+          {
+            "label": "activePool",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IActivePool)5348",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:34"
+          },
+          {
+            "label": "defaultPool",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IDefaultPool)5745",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:36"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ReentrancyGuardUpgradeable.sol:37"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ReentrancyGuardUpgradeable.sol:67"
+          },
+          {
+            "label": "troveManager",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_contract(ITroveManager)6968",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:35"
+          },
+          {
+            "label": "stabilityPoolAddress",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:37"
+          },
+          {
+            "label": "gasPoolAddress",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_address",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:39"
+          },
+          {
+            "label": "collSurplusPool",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_contract(ICollSurplusPool)5686",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:41"
+          },
+          {
+            "label": "BOCTreasuryAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:43"
+          },
+          {
+            "label": "CUSDToken",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_contract(ICUSDToken)5595",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:45"
+          },
+          {
+            "label": "deploymentTime",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_uint256",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:48"
+          },
+          {
+            "label": "sortedTroves",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_contract(ISortedTroves)6150",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:51"
+          },
+          {
+            "label": "leverUpEnabled",
+            "offset": 20,
+            "slot": "160",
+            "type": "t_bool",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:54"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IActivePool)5348": {
+            "label": "contract IActivePool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICUSDToken)5595": {
+            "label": "contract ICUSDToken",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICollSurplusPool)5686": {
+            "label": "contract ICollSurplusPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IDefaultPool)5745": {
+            "label": "contract IDefaultPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ISortedTroves)6150": {
+            "label": "contract ISortedTroves",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITroveManager)6968": {
+            "label": "contract ITroveManager",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IWhitelist)7248": {
+            "label": "contract IWhitelist",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "b507e512121cecfe52cae73ed6eb5ddb14074cf44df54fb32a9e14bb0d59e79f": {
+      "address": "0x43c989cD896e521Ba03fFF4a838D785Ceb356168",
+      "txHash": "0xaa9da8364febeccb84afd442e5cc28068911a7d377150770556f16084cca0cee",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "whitelist",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IWhitelist)13925",
+            "contract": "BOCLCustomBase",
+            "src": "src\\main\\Dependencies\\BOCLCustomBase.sol:14"
+          },
+          {
+            "label": "activePool",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IActivePool)11295",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:34"
+          },
+          {
+            "label": "defaultPool",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IDefaultPool)11737",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:36"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "sortedTroves",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_contract(ISortedTroves)12207",
+            "contract": "HintHelpers",
+            "src": "src\\main\\HintHelpers.sol:20"
+          },
+          {
+            "label": "troveManager",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_contract(ITroveManager)13532",
+            "contract": "HintHelpers",
+            "src": "src\\main\\HintHelpers.sol:21"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IActivePool)11295": {
+            "label": "contract IActivePool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IDefaultPool)11737": {
+            "label": "contract IDefaultPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ISortedTroves)12207": {
+            "label": "contract ISortedTroves",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITroveManager)13532": {
+            "label": "contract ITroveManager",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IWhitelist)13925": {
+            "label": "contract IWhitelist",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "7546895038fac0fa2afe1023e4322aa2088313d16322de9ba4e89c15f98db2d2": {
+      "address": "0x81AAA5Ba77bef87ac3E031f4dBC8fff8bDc9f08e",
+      "txHash": "0x7218665f2686fa1f134dbb6b154cd6de2be9805becf6262758e10ba39ca6958d",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "whitelist",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IWhitelist)13925",
+            "contract": "BOCLCustomBase",
+            "src": "src\\main\\Dependencies\\BOCLCustomBase.sol:14"
+          },
+          {
+            "label": "activePool",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IActivePool)11295",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:34"
+          },
+          {
+            "label": "defaultPool",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IDefaultPool)11737",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:36"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "borrowerOperationsAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "TroveManagerLiquidations",
+            "src": "src\\main\\TroveManagerLiquidations.sol:20"
+          },
+          {
+            "label": "stabilityPoolContract",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_contract(IStabilityPool)12403",
+            "contract": "TroveManagerLiquidations",
+            "src": "src\\main\\TroveManagerLiquidations.sol:22"
+          },
+          {
+            "label": "troveManager",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_contract(ITroveManager)13532",
+            "contract": "TroveManagerLiquidations",
+            "src": "src\\main\\TroveManagerLiquidations.sol:24"
+          },
+          {
+            "label": "CUSDTokenContract",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_contract(ICUSDToken)11553",
+            "contract": "TroveManagerLiquidations",
+            "src": "src\\main\\TroveManagerLiquidations.sol:26"
+          },
+          {
+            "label": "BOCTreasuryContract",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_address",
+            "contract": "TroveManagerLiquidations",
+            "src": "src\\main\\TroveManagerLiquidations.sol:28"
+          },
+          {
+            "label": "troveManagerLiquidations",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_contract(ITroveManagerLiquidations)13543",
+            "contract": "TroveManagerLiquidations",
+            "src": "src\\main\\TroveManagerLiquidations.sol:30"
+          },
+          {
+            "label": "gasPoolAddress",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_address",
+            "contract": "TroveManagerLiquidations",
+            "src": "src\\main\\TroveManagerLiquidations.sol:32"
+          },
+          {
+            "label": "troveManagerAddress",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_address",
+            "contract": "TroveManagerLiquidations",
+            "src": "src\\main\\TroveManagerLiquidations.sol:34"
+          },
+          {
+            "label": "sortedTroves",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_contract(ISortedTroves)12207",
+            "contract": "TroveManagerLiquidations",
+            "src": "src\\main\\TroveManagerLiquidations.sol:36"
+          },
+          {
+            "label": "collSurplusPool",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_contract(ICollSurplusPool)11644",
+            "contract": "TroveManagerLiquidations",
+            "src": "src\\main\\TroveManagerLiquidations.sol:38"
+          },
+          {
+            "label": "bankOfCronosTreasury",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_address",
+            "contract": "TroveManagerLiquidations",
+            "src": "src\\main\\TroveManagerLiquidations.sol:40"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IActivePool)11295": {
+            "label": "contract IActivePool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICUSDToken)11553": {
+            "label": "contract ICUSDToken",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICollSurplusPool)11644": {
+            "label": "contract ICollSurplusPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IDefaultPool)11737": {
+            "label": "contract IDefaultPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ISortedTroves)12207": {
+            "label": "contract ISortedTroves",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IStabilityPool)12403": {
+            "label": "contract IStabilityPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITroveManager)13532": {
+            "label": "contract ITroveManager",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITroveManagerLiquidations)13543": {
+            "label": "contract ITroveManagerLiquidations",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IWhitelist)13925": {
+            "label": "contract IWhitelist",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "487a80a5d01d00ad342e076f243989ec39a204ab549c9ba6cf5f73cbe885df5f": {
+      "address": "0x6c7d2dE824c5Dd330Ae4d62C986f0FF07a695742",
+      "txHash": "0xc546714f013ef0519128723b4d1521245526b745030fb96ac097635ef99b7a0a",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "whitelist",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IWhitelist)13925",
+            "contract": "BOCLCustomBase",
+            "src": "src\\main\\Dependencies\\BOCLCustomBase.sol:14"
+          },
+          {
+            "label": "activePool",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IActivePool)11295",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:34"
+          },
+          {
+            "label": "defaultPool",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IDefaultPool)11737",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:36"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "borrowerOperationsAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "TroveManagerRedemptions",
+            "src": "src\\main\\TroveManagerRedemptions.sol:42"
+          },
+          {
+            "label": "stabilityPoolContract",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_contract(IStabilityPool)12403",
+            "contract": "TroveManagerRedemptions",
+            "src": "src\\main\\TroveManagerRedemptions.sol:44"
+          },
+          {
+            "label": "troveManager",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_contract(ITroveManager)13532",
+            "contract": "TroveManagerRedemptions",
+            "src": "src\\main\\TroveManagerRedemptions.sol:46"
+          },
+          {
+            "label": "CUSDTokenContract",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_contract(ICUSDToken)11553",
+            "contract": "TroveManagerRedemptions",
+            "src": "src\\main\\TroveManagerRedemptions.sol:48"
+          },
+          {
+            "label": "BOCTreasuryContract",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_address",
+            "contract": "TroveManagerRedemptions",
+            "src": "src\\main\\TroveManagerRedemptions.sol:50"
+          },
+          {
+            "label": "troveManagerRedemptions",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_contract(ITroveManagerRedemptions)13565",
+            "contract": "TroveManagerRedemptions",
+            "src": "src\\main\\TroveManagerRedemptions.sol:52"
+          },
+          {
+            "label": "gasPoolAddress",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_address",
+            "contract": "TroveManagerRedemptions",
+            "src": "src\\main\\TroveManagerRedemptions.sol:54"
+          },
+          {
+            "label": "sortedTroves",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_contract(ISortedTroves)12207",
+            "contract": "TroveManagerRedemptions",
+            "src": "src\\main\\TroveManagerRedemptions.sol:56"
+          },
+          {
+            "label": "collSurplusPool",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_contract(ICollSurplusPool)11644",
+            "contract": "TroveManagerRedemptions",
+            "src": "src\\main\\TroveManagerRedemptions.sol:58"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IActivePool)11295": {
+            "label": "contract IActivePool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICUSDToken)11553": {
+            "label": "contract ICUSDToken",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICollSurplusPool)11644": {
+            "label": "contract ICollSurplusPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IDefaultPool)11737": {
+            "label": "contract IDefaultPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ISortedTroves)12207": {
+            "label": "contract ISortedTroves",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IStabilityPool)12403": {
+            "label": "contract IStabilityPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITroveManager)13532": {
+            "label": "contract ITroveManager",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITroveManagerRedemptions)13565": {
+            "label": "contract ITroveManagerRedemptions",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IWhitelist)13925": {
+            "label": "contract IWhitelist",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "0e44ea18a32f3e1a8a087e227329cff954da6084aff0731ba145b93c3a47aced": {
+      "address": "0xc000ae87C224Dc3974641597dAB55f6f3d17555C",
+      "txHash": "0x9221f51afc812ce6f08d385ce7ad4296f8dc253849fd1021f67e6b75e39eeb4e",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "activePool",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IActivePool)11295",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:41"
+          },
+          {
+            "label": "defaultPool",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IDefaultPool)11737",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:42"
+          },
+          {
+            "label": "stabilityPool",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_contract(IStabilityPool)12403",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:43"
+          },
+          {
+            "label": "collSurplusPool",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_contract(ICollSurplusPool)11644",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:44"
+          },
+          {
+            "label": "borrowerOperationsAddress",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_address",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:45"
+          },
+          {
+            "label": "addressesSet",
+            "offset": 20,
+            "slot": "105",
+            "type": "t_bool",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:46"
+          },
+          {
+            "label": "validCallers",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_address,t_address)",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:48"
+          },
+          {
+            "label": "pendingLockCallers",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:49"
+          },
+          {
+            "label": "cannotUpdateValidCaller",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:50"
+          },
+          {
+            "label": "collateralParams",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_struct(CollateralParams)9334_storage)",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:52"
+          },
+          {
+            "label": "validCollateral",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:55"
+          },
+          {
+            "label": "maxCollsInTrove",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_uint256",
+            "contract": "Whitelist",
+            "src": "src\\main\\Dependencies\\Whitelist.sol:57"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IActivePool)11295": {
+            "label": "contract IActivePool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICollSurplusPool)11644": {
+            "label": "contract ICollSurplusPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IDefaultPool)11737": {
+            "label": "contract IDefaultPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IStabilityPool)12403": {
+            "label": "contract IStabilityPool",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(CollateralParams)9334_storage)": {
+            "label": "mapping(address => struct Whitelist.CollateralParams)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(CollateralParams)9334_storage": {
+            "label": "struct Whitelist.CollateralParams",
+            "members": [
+              {
+                "label": "safetyRatio",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "recoveryRatio",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "oracle",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "decimals",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "priceCurve",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "index",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "defaultRouter",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "6"
+              },
+              {
+                "label": "active",
+                "type": "t_bool",
+                "offset": 20,
+                "slot": "6"
+              },
+              {
+                "label": "isWrapped",
+                "type": "t_bool",
+                "offset": 21,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "5016e82b11d9c650a89d06d30b1fd729455e3ddbfea53b485f5492f6dc6cfa84": {
+      "address": "0x4E264CB9eeE226Ee1F0E3151194C6D1C410eE40d",
+      "txHash": "0x130a8e6b39d54413dc50b8cd91e1bdae66d46cad927ee26f2bbbc79be3781a9d",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "name",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_string_storage",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:17"
+          },
+          {
+            "label": "m1",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:18"
+          },
+          {
+            "label": "b1",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:19"
+          },
+          {
+            "label": "cutoff1",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:20"
+          },
+          {
+            "label": "m2",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:21"
+          },
+          {
+            "label": "b2",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:22"
+          },
+          {
+            "label": "b2Negative",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_bool",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:23"
+          },
+          {
+            "label": "cutoff2",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:24"
+          },
+          {
+            "label": "m3",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:25"
+          },
+          {
+            "label": "b3",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:26"
+          },
+          {
+            "label": "b3Negative",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_bool",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:27"
+          },
+          {
+            "label": "decayTime",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:28"
+          },
+          {
+            "label": "lastFeeTime",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:30"
+          },
+          {
+            "label": "lastFeePercent",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:31"
+          },
+          {
+            "label": "dollarCap",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_uint256",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:32"
+          },
+          {
+            "label": "whitelistAddress",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_address",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:33"
+          },
+          {
+            "label": "addressesSet",
+            "offset": 20,
+            "slot": "116",
+            "type": "t_bool",
+            "contract": "ThreePieceWiseLinearPriceCurve",
+            "src": "src\\main\\PriceCurves\\ThreePieceWiseLinearPriceCurve.sol:34"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "c087a4b9b45950a5d93f6bbbc41c5f62a3d480b44d7066f63af4c4284b277157": {
+      "address": "0xeD4cd2a700969480067523634f5632047C2dC2c4",
+      "txHash": "0x4ae766ab37c4deaae39a920b1cf9309a8e0f3b22ccd7b8c3de5002b40911c5cd",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "priceAggregator",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(AggregatorV3Interface)7041",
+            "contract": "PriceFeed",
+            "src": "src\\main\\PriceFeed.sol:29"
+          },
+          {
+            "label": "lastGoodPrice",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_uint256",
+            "contract": "PriceFeed",
+            "src": "src\\main\\PriceFeed.sol:43"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)7041": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "4c016168dbd139210fc2f91788d9d99514c61a371168e48a23335b944bec2879": {
+      "address": "0x770dDC5aea10A772C16266e2F476A33ED69bfDC5",
+      "txHash": "0x0f5e3435c6c47727ed5f825132ebb273b7ee97d7d6a5942485eed4c4e061b051",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "whitelist",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IWhitelist)7248",
+            "contract": "BOCLCustomBase",
+            "src": "src\\main\\Dependencies\\BOCLCustomBase.sol:14"
+          },
+          {
+            "label": "activePool",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IActivePool)5348",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:34"
+          },
+          {
+            "label": "defaultPool",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IDefaultPool)5745",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:36"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ReentrancyGuardUpgradeable.sol:37"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ReentrancyGuardUpgradeable.sol:67"
+          },
+          {
+            "label": "troveManager",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_contract(ITroveManager)6968",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:35"
+          },
+          {
+            "label": "stabilityPoolAddress",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:37"
+          },
+          {
+            "label": "gasPoolAddress",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_address",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:39"
+          },
+          {
+            "label": "collSurplusPool",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_contract(ICollSurplusPool)5686",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:41"
+          },
+          {
+            "label": "BOCTreasuryAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:43"
+          },
+          {
+            "label": "CUSDToken",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_contract(ICUSDToken)5595",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:45"
+          },
+          {
+            "label": "deploymentTime",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_uint256",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:48"
+          },
+          {
+            "label": "sortedTroves",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_contract(ISortedTroves)6150",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:51"
+          },
+          {
+            "label": "leverUpEnabled",
+            "offset": 20,
+            "slot": "160",
+            "type": "t_bool",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:54"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IActivePool)5348": {
+            "label": "contract IActivePool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICUSDToken)5595": {
+            "label": "contract ICUSDToken",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICollSurplusPool)5686": {
+            "label": "contract ICollSurplusPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IDefaultPool)5745": {
+            "label": "contract IDefaultPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ISortedTroves)6150": {
+            "label": "contract ISortedTroves",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITroveManager)6968": {
+            "label": "contract ITroveManager",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IWhitelist)7248": {
+            "label": "contract IWhitelist",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "5b66dc504354f518f454d61a9a6ee8435a0c391da56123b0bab51e971943b451": {
+      "address": "0xC67B37f534cB876256DE0D859f94a974ac24974A",
+      "txHash": "0x58cb06b740ac051dfb2be4e4c04ac0b3f2cd08b94da80892ca87f2cd5e973711",
+      "layout": {
+        "solcVersion": "0.6.11",
+        "storage": [
+          {
+            "label": "whitelist",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IWhitelist)13925",
+            "contract": "BOCLCustomBase",
+            "src": "src\\main\\Dependencies\\BOCLCustomBase.sol:14"
+          },
+          {
+            "label": "activePool",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(IActivePool)11295",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:34"
+          },
+          {
+            "label": "defaultPool",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IDefaultPool)11737",
+            "contract": "LiquityBase",
+            "src": "src\\main\\Dependencies\\LiquityBase.sol:36"
+          },
+          {
+            "label": "_initialized",
+            "offset": 20,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:25"
+          },
+          {
+            "label": "_initializing",
+            "offset": 21,
+            "slot": "2",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\Initializable.sol:30"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:31"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:20"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:74"
+          },
+          {
+            "label": "_status",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_uint256",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ReentrancyGuardUpgradeable.sol:37"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "ReentrancyGuardUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ReentrancyGuardUpgradeable.sol:67"
+          },
+          {
+            "label": "troveManager",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_contract(ITroveManager)13532",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:35"
+          },
+          {
+            "label": "stabilityPoolAddress",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:37"
+          },
+          {
+            "label": "gasPoolAddress",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_address",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:39"
+          },
+          {
+            "label": "collSurplusPool",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_contract(ICollSurplusPool)11644",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:41"
+          },
+          {
+            "label": "BOCTreasuryAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:43"
+          },
+          {
+            "label": "CUSDToken",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_contract(ICUSDToken)11553",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:45"
+          },
+          {
+            "label": "deploymentTime",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_uint256",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:48"
+          },
+          {
+            "label": "sortedTroves",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_contract(ISortedTroves)12207",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:51"
+          },
+          {
+            "label": "leverUpEnabled",
+            "offset": 20,
+            "slot": "160",
+            "type": "t_bool",
+            "contract": "BorrowerOperations",
+            "src": "src\\main\\BorrowerOperations.sol:54"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IActivePool)11295": {
+            "label": "contract IActivePool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICUSDToken)11553": {
+            "label": "contract ICUSDToken",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICollSurplusPool)11644": {
+            "label": "contract ICollSurplusPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IDefaultPool)11737": {
+            "label": "contract IDefaultPool",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ISortedTroves)12207": {
+            "label": "contract ISortedTroves",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ITroveManager)13532": {
+            "label": "contract ITroveManager",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IWhitelist)13925": {
+            "label": "contract IWhitelist",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}

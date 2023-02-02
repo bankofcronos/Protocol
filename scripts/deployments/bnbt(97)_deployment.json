@@ -1,0 +1,150 @@
+{
+  "WETH": {
+    "address": "0x0040918e7f2529FdE6631dC104F113Cf84F4891B",
+    "parametersSet": true
+  },
+  "VestaOracle": {
+    "address": "0x2a7bf4493969A0D3a620a65546a56a2E382A6d5D"
+  },
+  "priceFeed": {
+    "address": "0x21e9d83297cbF62EE708197d1A9fb2540f71883A",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "sortedTroves": {
+    "address": "0xB2eD89506AE23c349C179aA00c53b59AC348Db74",
+    "initialized": true
+  },
+  "troveManager": {
+    "address": "0x0a48aDD8F9322Ff17233d2cd1313eEf06DD11beE",
+    "initialized": true
+  },
+  "activePool": {
+    "address": "0x05DD9A0Acd3141e1E387CBa3f0Ea8cf41693A793",
+    "initialized": true
+  },
+  "stabilityPool": {
+    "address": "0x5642Ca80561770fbC9891cDC03232582895A29D8",
+    "initialized": true
+  },
+  "gasPool": {
+    "address": "0x9d757138E224173eba740192eE414a7Af2F741b6"
+  },
+  "defaultPool": {
+    "address": "0x2CB00C0D01F4D93Ff04a484f3b4e48B6A9d14a99",
+    "initialized": true
+  },
+  "collSurplusPool": {
+    "address": "0xA778ADCE3753A2425864F436654e3FAeFcA06701",
+    "initialized": true
+  },
+  "borrowerOperations": {
+    "address": "0x2769f8aE095773d39fef753f1ccaB5C843357E92",
+    "addressesSet": true
+  },
+  "hintHelpers": {
+    "address": "0x871c25Ea991d9716C2bA0D21e39127157b9fAD38",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "troveManagerLiquidations": {
+    "address": "0x9491ca14683ED4a3375FDbF2b5fAf806FA46c2c3",
+    "initialized": true
+  },
+  "troveManagerRedemptions": {
+    "address": "0x8b66D1658d29Ee9fEbf268d0986dbc5195DcFAAC",
+    "initialized": true
+  },
+  "whitelist": {
+    "address": "0x9F50aED06C606ff9e7B2525b24d5e6ABd36F42B5",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "linearpricecurve": {
+    "address": "0x445E6a012fE36F0f4E7DB3f34b3dac7dc7E296F5",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "vstToken": {
+    "address": "0xF2c7FeEC9F90126FeAD1B6846A1ecc89DB1208Ee"
+  },
+  "sVSTA": {
+    "address": "0x0Ff4f2da90565173304B709536B3961F3f0c83FA"
+  },
+  "communityIssuance": {
+    "address": "0xac57b0f9d2a225f03e557cDF0Ef42175cc9e744b"
+  },
+  "vstaToken": {
+    "address": "0xcb39aa43E53222aF9D8F20ec5Fe47F80C5bc3e9b"
+  },
+  "WCRO": {
+    "address": "0x5a6892442172c7a2693dF71E4A77895192ab184c",
+    "collateralAdded": true,
+    "parametersSet": true
+  },
+  "WBTC": {
+    "address": "0x8C3BD1B6d71E613fb6Cb82638C1e78e7677EeDE5",
+    "collateralAdded": true,
+    "parametersSet": true
+  },
+  "VestaETHOracle": {
+    "address": "0x194B620325348107E9e5186C0B46ee9094113814"
+  },
+  "VestaCROOracle": {
+    "address": "0x490A10C0aF776B4620894793805F3Aa66cEa1474"
+  },
+  "VestaBTCOracle": {
+    "address": "0xBE72E6D82Ab65BcA0C49107EFfe8BF2aE5979cD2"
+  },
+  "ethPriceFeed": {
+    "address": "0xB977b380569A86efA5944E055f95De231B79cFC9",
+    "tx": "0xaf03d568970564c95b75e2255a61c108007f50438d6a3685b99da4fea2a0699b",
+    "implementation": "0x0D950724aC58EdB41880fbe917295C047435210F",
+    "proxyAdmin": "0x9b301259FB122A4a5B99391a6040f30B4cc718Ff",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "croPriceFeed": {
+    "address": "0xf06599513B1f3ff599b84EeF161A460E83a81223",
+    "tx": "0x5bb3c5a47b3d1a4780fdc51831c9605636557d310b58c17edc9de028cea73323",
+    "implementation": "0x0D950724aC58EdB41880fbe917295C047435210F",
+    "proxyAdmin": "0x9b301259FB122A4a5B99391a6040f30B4cc718Ff",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "btcPriceFeed": {
+    "address": "0x7B957a1da6ECBedF0056c4AC9BeFa4e81dF31641",
+    "tx": "0xa1d11578c7253e9a08d0fefbca800b0be6c136f2e94e0f06d3d22132e2ddf7b3",
+    "implementation": "0x0D950724aC58EdB41880fbe917295C047435210F",
+    "proxyAdmin": "0x9b301259FB122A4a5B99391a6040f30B4cc718Ff",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "ethlinearpricecurve": {
+    "address": "0xFEe0B6494cf6df385058586eeb5F881Dd5F64a3E",
+    "tx": "0x3958eebaf6dc3de7e50c80577333f85bc70af6b957c1b49fd9a9e4b4cf80b567",
+    "implementation": "0xD31871DbC1f7AC36E981A325D8c4Ab39A5E8D5fC",
+    "proxyAdmin": "0x9b301259FB122A4a5B99391a6040f30B4cc718Ff",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "crolinearpricecurve": {
+    "address": "0xDf895Cd1f48C0A45506358436b4D04353F73eeA0",
+    "tx": "0x20cc2cd08c25f0e21107c2bc5291ab8c2225a4bb983f9c1aa00d0c5f39300bab",
+    "implementation": "0xD31871DbC1f7AC36E981A325D8c4Ab39A5E8D5fC",
+    "proxyAdmin": "0x9b301259FB122A4a5B99391a6040f30B4cc718Ff",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "btclinearpricecurve": {
+    "address": "0x101b6e6F641D60FbD193283D3A20d6B807116272",
+    "tx": "0x5630d98eee550d367c9936b8b9be5be97b685111a124318985d31972bd5d9759",
+    "implementation": "0xD31871DbC1f7AC36E981A325D8c4Ab39A5E8D5fC",
+    "proxyAdmin": "0x9b301259FB122A4a5B99391a6040f30B4cc718Ff",
+    "initialized": true,
+    "addressesSet": true
+  },
+  "cusdToken": {
+    "address": "0x469377677eb1Da5f1Ad4e21F17Af635600bee6CC"
+  }
+}
